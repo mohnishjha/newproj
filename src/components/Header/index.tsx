@@ -15,23 +15,23 @@ import {
 const header = [
   {
     name: "Home",
-    href: "#home",
+    href: "/#",
   },
   {
     name: "Services",
-    href: "#services",
+    href: "/#",
   },
   {
     name: "White Label",
-    href: "#white_label",
+    href: "/#",
   },
   {
     name: "Case Studies",
-    href: "#case_studies",
+    href: "/#",
   },
   {
     name: "Blog",
-    href: "#blog",
+    href: "/#",
   },
 ];
 const callsToAction = [
@@ -46,7 +46,7 @@ import Logo from "../Logo";
 
 export default function Header() {
   return (
-    <Popover className="z-50 bg-black sticky top-0">
+    <Popover className="z-50 bg-black sticky top-0 opacity-80 hover:opacity-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-black py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -67,7 +67,7 @@ export default function Header() {
                 <span key={item.name} className="px-5">
                   <Link
                     href={item.href}
-                    className="text-lg font-semibold leading-6 text-gray-200"
+                    className="text-lg font-semibold leading-6 text-gray-200 hover:text-blue-400"
                   >
                     {item.name}
                   </Link>

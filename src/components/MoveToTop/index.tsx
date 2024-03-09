@@ -26,7 +26,7 @@ const MoveToTop = () => {
 
   return (
     <button
-      className={`fixed bottom-8 right-8 bg-black text-white h-8 w-8 hover:w-20 hover:h-20 rounded-full ${
+      className={`fixed bottom-8 right-8 bg-black text-white h-8 w-8 hover:w-10 hover:h-10 rounded-full hover:bg-blue-600 ${
         isVisible ? "opacity-100" : "opacity-0"
       } transition-opacity ease-in-out duration-300 focus:outline-none`}
       onClick={scrollToTop}

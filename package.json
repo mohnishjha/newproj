@@ -1,9 +1,9 @@
 {
-  "name": "pixel-tech",
+  "name": "socialswarm_site_by_mohnishjha",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/palashgdev/tailwind-nextjs.git",
-  "author": "Palash <palashgdev@gmail.com>",
+  "repository": "https://github.com/mohnishjha/newproj.git",
+  "author": "Mohnish <mohnishjdev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.3",

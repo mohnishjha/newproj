@@ -6,7 +6,13 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "media",
-  theme: {},
+  theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+    }
+  },
   experimental: {},
   plugins: [
     require("@tailwindcss/line-clamp"),
