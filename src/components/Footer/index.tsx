@@ -169,13 +169,13 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/#contactform"
                     className="text-blue-500 transition hover:opacity-75"
                   >
                     {" "}
                     Contact us{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -217,7 +217,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-gray-100">
-          &copy; 2022. Company Name. All rights reserved.
+          &copy; 2022 SocialSwarm All rights reserved.
         </p>
       </div>
     </footer>

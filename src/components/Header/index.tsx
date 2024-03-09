@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, PhoneIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
+
 import {
   IconBrandFiverr,
   IconBrandInstagram,
@@ -19,7 +20,7 @@ const header = [
   },
   {
     name: "Services",
-    href: "/#",
+    href: "../Products",
   },
   {
     name: "White Label",
@@ -50,7 +51,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-black py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <Link href="#">
+            <Link href="/">
               <span className="sr-only">SocialSwarm</span>
               <Logo />
             </Link>
@@ -77,7 +78,7 @@ export default function Header() {
           </Popover.Group>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <Link
-              href="team[at]socialswarm.io"
+              href="/#contactform"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-full border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
             >
               Get Started Now

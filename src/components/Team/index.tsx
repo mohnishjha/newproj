@@ -89,7 +89,7 @@ const faq = [
     answer: "No, we cannot target by age directly due to Instagram's privacy policies. While we cannot see other users' ages."
   },
   {
-    question: "Can you filter/exclude certain countries/demographics?",
+    question: "Can you filter/exclude certain countries / demographics?",
     answer: "Yes, we have dictionaries of names and words from various countries which allow us to filter out most names from Tier 2 and Tier 3 countries. By comparing text in profiles, bios, comments and posts to our extensive databases, we can with high accuracy exclude/filter profiles from specific territories. This geographic filtering capability helps ensure your marketing efforts reach culturally relevant audiences in your key regions for maximum engagement and ROI."
   },
   {
@@ -213,7 +213,7 @@ export default function Team() {
     <section className="mx-auto max-w-7xl bg-gray-100 px-2 py-10 md:px-0">
       <div>
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+          <h2 className=" font-bold leading-tight text-black sm:text-2xl lg:text-3xl text-center">
             Frequently Asked Questions
           </h2>
           {/* <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
@@ -225,7 +225,7 @@ export default function Team() {
             <div
               key={i}
               className={`cursor-pointer rounded-md border border-gray-400 transition-all duration-200 ${
-                openIndex === i ? 'h-96 overflow-y-auto' : 'h-20'}`}
+                openIndex === i ? 'h-96 overflow-y-auto' : 'overflow-y-auto'}`}
             >
               <button
                 type="button"
@@ -253,7 +253,7 @@ export default function Team() {
         </div>
         <p className="text-base mt-6 text-center text-gray-600">
           Can&apos;t find what you&apos;re looking for?{' '}
-          <a href='#' title="" className="font-semibold text-black hover:underline">
+          <a href='#contactform' title="" className="font-semibold text-black hover:underline">
             Contact us
           </a>
         </p>

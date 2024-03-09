@@ -247,15 +247,15 @@ const index = () => {
           </li>
           <p className="text-3xl font-extrabold text-black">&darr;</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
-            Use any keyword from the "anchor keyword" list and receive
-            comments about that subject. e.g. include a keyword "TAG
-            3" in your post, and our NFT profiles will tag 3 accounts under
+            Use any keyword from the &quot;anchor keyword&quot; list and receive
+            comments about that subject. e.g. include a keyword &quot;TAG
+            3&quot; in your post, and our NFT profiles will tag 3 accounts under
             your tweet (if you have Launch or Elevate package).
           </li>
           <p className="text-3xl font-extrabold text-black">&darr;</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
             You can come with custom comments of your own, otherwise, we will
-            use our standard "anchor keyword" list.
+            use our standard &quot;anchor keyword&quot; list.
           </li>
         </ol>
       </section>
@@ -278,7 +278,7 @@ const index = () => {
           <table className="mx-auto">
           <tbody>
             <tr>
-              <th>[Competitor] =&gt </th>
+              <th>[Competitor] =&gt; </th>
               <th>[follower amount]</th>
             </tr>
             {tableData.map((item) => (
@@ -327,7 +327,7 @@ const index = () => {
 
       <section>
               <h1 className="font-bold text-3xl text-center pb-14">Engagement Keywords</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 text-center">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 text-center mx-10">
                   
                   {engagement.map((element, i)=> {
                     return (
@@ -343,18 +343,18 @@ const index = () => {
 
         <section>
           <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-            {/* <Image src="/twitter-bg.jpg" alt="twitter-bg" className="" width={300} height={300}/> */}
+            
             
               <h1 className="font-bold text-3xl text-center pb-10">Reassurance & Social Proof</h1>
             <div className="flex mx-10 flex-wrap">
               <div className="mx-2 max-w-xs">
               <h2 className="font-semibold border-b-2 border-white pb-4">Trusted Growth Partners Since 2020</h2>
-              <p className="pt-4">We&apos;;ve a proven track record and delivered quantifiable results to hundreds of NFT & Token projects through continually refined social strategies.</p>
+              <p className="pt-4">We&apos;ve a proven track record and delivered quantifiable results to hundreds of NFT & Token projects through continually refined social strategies.</p>
               </div>
 
               <div className="mx-2 max-w-sm">
               <h2 className="font-semibold border-b-2 border-white pb-4">+40 Successful Mint & +130 projects boosted.</h2>
-              <p className="pt-4">We&apos;;ve proven our expertise at scale by partnering with a diversity of NFT & Token Marketing Projects to expand reach, boost engagement, and get them successful Mint and Launch since 2020.</p>
+              <p className="pt-4">We&apos;ve proven our expertise at scale by partnering with a diversity of NFT & Token Marketing Projects to expand reach, boost engagement, and get them successful Mint and Launch since 2020.</p>
               </div>
 
               <div className="mx-2 max-w-xs">

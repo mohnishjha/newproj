@@ -8,21 +8,20 @@ export default function Contact() {
   return (
     <div
       className="isolate bg-black px-6 py-24 sm:py-32 lg:px-8 w-full"
-      id="contact"
+      id="contactform"
     >
       <div className="mx-auto max-w-2xl text-center shadow-xl shadow-gray-400 rounded-full">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
+        <h2 className="font-bold tracking-tight text-gray-100 sm:text-3xl">
           Contact Us
         </h2>
-        <p className="my-4 text-lg leading-8 text-gray-300 ">
+        <p className="my-3 text-lg leading-8 text-gray-300 pb-2">
           Let&apos;s Connect
         </p>
       </div>
       <form
         action="#"
         method="POST"
-        className="mx-auto mt-16 max-w-xl sm:mt-20"
-      >
+        className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
