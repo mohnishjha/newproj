@@ -1,12 +1,76 @@
-import MoveToTop from "components/MoveToTop";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import MoveToTop from "components/MoveToTop"
+import Image from "next/image"
+import Link from "next/link"
+import React from "react"
+
+
+const engagement = [
+  {
+    count: 1,
+    keywords: 'If any of the following words are included in your last tweet: "Giveaway, NFTGiveaway, Contest(s), Tag, Interact, Interaction(s), RT(s), Like(s), Comment(s), Share, Follow(s)", NFT accounts will engage according to the ratio you have set for Comments/Likes/RTs (maximum engagement (100%)).'
+  },
+  {
+    count: 2,
+    keywords: 'If the tweet contains "AMA" or "ama", comments about the AMA will be written by child accounts instead of generic comments.'
+  },
+  {
+    count: 3,
+    keywords: 'If the tweet contains "Join Discord", comments about the Discord will be written by child accounts instead of the usual list.'
+  },
+  {
+    count: 4,
+    keywords: 'If the tweet contains "Partnership" or "Collab" or "Collaborations", comments about collaborations will be written by child accounts.'
+  },  
+  {
+    count: 5,
+    keywords: 'If the tweet contains "Drop your MetaMask address", child accounts will comment with a random MetaMask address.'
+  },  
+  {
+    count: 6,
+    keywords: 'If the tweet contains "Genesis collection" or "genesis NFT" or "our collection", child accounts will write a comment about your NFT collection.'
+  },  
+  {
+    count: 7,
+    keywords: 'If the tweet contains "our article" or "our blog", child accounts will write a generic comment about your blog.'
+  },  
+  {
+    count: 8,
+    keywords: 'If the tweet contains "NFT gallery", child accounts will write a comment about your NFT gallery.'
+  },  
+  {
+    count: 9,
+    keywords: 'If the tweet contains "Metaverse", child accounts will write a comment about the Metaverse.'
+  },  
+  {
+    count: 10,
+    keywords: 'If the tweet contains "Gm", child accounts will write a "Hello/gm" comment. One space is needed after Gm. Examples: "Gm", "Gm John", "Gm all". Avoid "Gm.", "Gm!", etc.'
+  },  
+  {
+    count: 11,
+    keywords: 'If the tweet contains "launch", child accounts will write comments accordingly.'
+  },  
+  {
+    count: 12,
+    keywords: 'If the tweet contains "Spot" or "Spots", child accounts will write a comment expressing interest in finding a spot.'
+  },  
+  {
+    count: 13,
+    keywords: 'If the tweet contains "Presale", child accounts will comment asking about price expectations after the presale.'
+  },  
+  {
+    count: 14,
+    keywords: 'If the tweet contains "$BNB" or "$BNBX", child accounts will comment with your token symbol (e.g., "$XXX" or "$XXXX").'
+  },
+  {
+    count: 15,
+    keywords: "Tags/Mentions: Max 3 per comment, Replace X with the number you want. Don't ask for 'tag 4 people'. (If instruction is found they will tag the number of people according to your instruction: bot(s) from our network for Essential package or directly scraped user(s) from your targets for Launch & Elevate package). Replace X with the number you want. Tag X | Mention X | Mention a friend | Tag a friend | Tag your friends | Mention your friends | Tag friends | Mention friends"
+  },
+]
 
 const tableData = [
   { competitor: 'Competitor1', followerAmount: '2.4k' },
   { competitor: 'Competitor2', followerAmount: '32k' },
-];
+]
 
 
 const table = [
@@ -46,7 +110,7 @@ const table = [
     eight: "No Password required",
     nine: "200 accounts/30days/1150€",
   },
-];
+]
 
 const index = () => {
   return (
@@ -56,7 +120,7 @@ const index = () => {
         <h2 className="text-2xl font-medium mb-10">(formerly Twitter)</h2>
         <p className="mb-10">X Auto Engagement & Outreach Services</p>
         <p className="">
-          Don&apos;t go unnoticed: stand out from the competition, get your
+          Don&apost go unnoticed: stand out from the competition, get your
           project the hype it deserves. <br />
           Get seen by millions to grow a solid community of loyal fans &
           investors.
@@ -94,7 +158,7 @@ const index = () => {
             Precisely reach your target audience with our multiple targeting
             options: followers,
             <br /> following, geolocation, and hashtags. You can even steal your
-            competitors&apos; followers!
+            competitors&apos followers!
           </p>
 
           <h2 className="font-semibold text-lg">Create Hype and FOMO</h2>
@@ -170,28 +234,28 @@ const index = () => {
             your new Tweets. To get the maximum amount of engagements we
             recommend you wait up to 24 hours between each new Tweets.
           </li>
-          <p className="text-3xl font-extrabold text-black">&darr;</p>
+          <p className="text-3xl font-extrabold text-black">&darr</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
-            Our accounts engage like real humans; it will take time for all
+            Our accounts engage like real humans it will take time for all
             engagement to build as it does with real audience. To receive
-            engagements on the last Tweet, make sure that you haven&apos;t
+            engagements on the last Tweet, make sure that you haven&apost
             pinned anything. Our NFT accounts always engage with pinned Tweet
             first. Want to get engagement on any other Tweet besides the latest
             one? Just pin the Tweet and unpin after engagement has arrived. If
             there are 2 tweets that were posted at exactly the same time, one
             after another, only the last tweet will receive engagement.
           </li>
-          <p className="text-3xl font-extrabold text-black">&darr;</p>
+          <p className="text-3xl font-extrabold text-black">&darr</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
-            Use any keyword from the &quot;anchor keyword&quot; list and receive
-            comments about that subject. e.g. include a keyword &quot;TAG
-            3&quot; in your post, and our NFT profiles will tag 3 accounts under
+            Use any keyword from the "anchor keyword" list and receive
+            comments about that subject. e.g. include a keyword "TAG
+            3" in your post, and our NFT profiles will tag 3 accounts under
             your tweet (if you have Launch or Elevate package).
           </li>
-          <p className="text-3xl font-extrabold text-black">&darr;</p>
+          <p className="text-3xl font-extrabold text-black">&darr</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
             You can come with custom comments of your own, otherwise, we will
-            use our standard &quot;anchor keyword&quot; list.
+            use our standard "anchor keyword" list.
           </li>
         </ol>
       </section>
@@ -203,7 +267,7 @@ const index = () => {
           </h1>
           <div>
             <strong>Followers or Following</strong> Choose your competitors
-            Projects or individuals having the followers you&apos;d like to
+            Projects or individuals having the followers you&aposd like to
             have. We will scrape (= get) all of their followers, then manually
             select the ones that appear to be organic: only those with an
             avatar, and with 10 to 8000 followers.
@@ -214,7 +278,7 @@ const index = () => {
           <table className="mx-auto">
           <tbody>
             <tr>
-              <th>[Competitor] =&gt; </th>
+              <th>[Competitor] =&gt </th>
               <th>[follower amount]</th>
             </tr>
             {tableData.map((item) => (
@@ -229,14 +293,14 @@ const index = () => {
           <br />
           <div>
             …Until we reach a sum of minimum 300k TOTAL per package. So if you
-            buy 3, we&apos;ll need 900K followers to scrape.
+            buy 3, we&aposll need 900K followers to scrape.
           </div>
         </div>
         <div className="w-10"></div>
         <div className="border-white border-2 p-10 bg-gradient-to-r from-blue-700 to-gray-500 max-w-xl">
           <h1 className="font-bold text-xl mb-4">Campaign Set-up</h1>
           <p>
-            If you chose an outreach package, we&apos;ll scrape the followers of
+            If you chose an outreach package, we&aposll scrape the followers of
             your competitors.
             <br /> It will take 3-5 business days. But for any package, we can
             start the engagement interaction usually within 48 hours.
@@ -247,7 +311,7 @@ const index = () => {
             2. Give us your Twitter profile link for automatic engagement
             https://twitter.com/example.
             <br />
-            3. Complete the Automatic Engagement Form (we&apos;ll send you a
+            3. Complete the Automatic Engagement Form (we&aposll send you a
             link to it)
           </p>
           <Image
@@ -260,9 +324,25 @@ const index = () => {
         </div>
       </section>
 
+
+      <section>
+              <h1 className="font-bold text-3xl text-center pb-14">Engagement Keywords</h1>
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 text-center">
+                  
+                  {engagement.map((element, i)=> {
+                    return (
+                      <div key={i} className={`border-gray-200 border-2 m-2 max-w-xl flex flex-col justify-center p-6 ${i%2 == 0 ? 'bg-white text-black' : 'bg-black'}`}>
+                      <span className="text-blue-600">{element.count}</span>
+                      <div>{element.keywords}</div>
+                      </div>
+                    )
+                  })}
+                </div>
+      </section>
+
       <MoveToTop />
     </div>
-  );
-};
+  )
+}
 
-export default index;
+export default index
