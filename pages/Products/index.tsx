@@ -332,7 +332,7 @@ const index = () => {
                   {engagement.map((element, i)=> {
                     return (
                       <div key={i} className={`border-gray-200 border-2 m-2 max-w-xl flex flex-col justify-center p-6 ${i%2 == 0 ? 'bg-white text-black' : 'bg-black'}`}>
-                      <span className="text-blue-600">{element.count}</span>
+                      <span className="text-blue-600 mb-4">{element.count}</span>
                       <div>{element.keywords}</div>
                       </div>
                     )

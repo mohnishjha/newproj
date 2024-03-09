@@ -59,7 +59,7 @@ export default function Example() {
             }}
           />
         </div>
-      I</div>
+      </div>
     </div>
   );
 }

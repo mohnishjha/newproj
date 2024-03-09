@@ -120,7 +120,7 @@ export default function Header() {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-8">
+                <nav className="grid gap-y-4">
                   {header.map((item) => (
                     <Link
                       key={item.name}
