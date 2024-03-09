@@ -1,6 +1,13 @@
 import MoveToTop from "components/MoveToTop";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+
+const tableData = [
+  { competitor: 'Competitor1', followerAmount: '2.4k' },
+  { competitor: 'Competitor2', followerAmount: '32k' },
+];
+
 
 const table = [
   {
@@ -140,25 +147,120 @@ const index = () => {
           </div>
         </div>
 
-          <div className="border-blue-500 border-2 max-w-3xl p-4 mx-auto">
-            <h2 className="font-bold text-center pb-4">Bulk discounts are available for large orders.</h2>
-            <p className="font-light text-center">You can stack multiple packages. Each package is for a volume of 200 accounts at your disposal. You can order for thousands of them to max out interactions and outreach/DMs capacities!</p>
-          </div>
+        <div className="border-blue-500 border-2 max-w-3xl p-4 mx-auto">
+          <h2 className="font-bold text-center pb-4">
+            Bulk discounts are available for large orders.
+          </h2>
+          <p className="font-light text-center">
+            You can stack multiple packages. Each package is for a volume of 200
+            accounts at your disposal. You can order for thousands of them to
+            max out interactions and outreach/DMs capacities!
+          </p>
+        </div>
       </section>
 
-      <section className="mt-36 bg-white text-black max-w-7xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4 text-center pt-10">How It Works</h1>
-        <ol className="list-disc list-outside px-14 pb-14 max-w-5xl mx-auto ">
-          <li className="list-item">Within the course of 30 days, you can post as much as you like. Our Twitter NFT accounts will engage (like, retweet & comment) on all your new Tweets. To get the maximum amount of engagements we recommend you wait up to 24 hours between each new Tweets.</li>
-          <li>Our accounts engage like real humans; it will take time for all engagement to build as it does with real audience. To receive engagements on the last Tweet, make sure that you haven&apos;t pinned anything. Our NFT accounts always engage with pinned Tweet first. Want to get engagement on any other Tweet besides the latest one? Just pin the Tweet and unpin after engagement has arrived. If there are 2 tweets that were posted at exactly the same time, one after another, only the last tweet will receive engagement.</li>
-          <li>Use any keyword from the &quot;anchor keyword&quot; list and receive comments about that subject. e.g. include a keyword &quot;TAG 3&quot; in your post, and our NFT profiles will tag 3 accounts under your tweet (if you have Launch or Elevate package).</li>
-          <li>You can come with custom comments of your own, otherwise, we will use our standard &quot;anchor keyword&quot; list.</li>
+      <section className="mt-36 bg-blue-100 text-black max-w-7xl mx-auto shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
+        <h1 className="text-2xl font-bold mb-4 text-center pt-10">
+          How It Works
+        </h1>
+        <ol className="px-14 pb-14 max-w-5xl mx-auto text-center">
+          <li className="border-dashed border-2 p-4 border-blue-900">
+            Within the course of 30 days, you can post as much as you like. Our
+            Twitter NFT accounts will engage (like, retweet & comment) on all
+            your new Tweets. To get the maximum amount of engagements we
+            recommend you wait up to 24 hours between each new Tweets.
+          </li>
+          <p className="text-3xl font-extrabold text-black">&darr;</p>
+          <li className="border-dashed border-2 p-4 border-blue-900">
+            Our accounts engage like real humans; it will take time for all
+            engagement to build as it does with real audience. To receive
+            engagements on the last Tweet, make sure that you haven&apos;t
+            pinned anything. Our NFT accounts always engage with pinned Tweet
+            first. Want to get engagement on any other Tweet besides the latest
+            one? Just pin the Tweet and unpin after engagement has arrived. If
+            there are 2 tweets that were posted at exactly the same time, one
+            after another, only the last tweet will receive engagement.
+          </li>
+          <p className="text-3xl font-extrabold text-black">&darr;</p>
+          <li className="border-dashed border-2 p-4 border-blue-900">
+            Use any keyword from the &quot;anchor keyword&quot; list and receive
+            comments about that subject. e.g. include a keyword &quot;TAG
+            3&quot; in your post, and our NFT profiles will tag 3 accounts under
+            your tweet (if you have Launch or Elevate package).
+          </li>
+          <p className="text-3xl font-extrabold text-black">&darr;</p>
+          <li className="border-dashed border-2 p-4 border-blue-900">
+            You can come with custom comments of your own, otherwise, we will
+            use our standard &quot;anchor keyword&quot; list.
+          </li>
         </ol>
       </section>
 
+      <section className="flex max-w-7xl mx-auto my-32 p-10 text-center flex-wrap">
+        <div className="border-white border-2 p-10  bg-gradient-to-r from-gray-500 to-blue-700 max-w-xl">
+          <h1 className="font-bold text-xl mb-4">
+            Targeting Possibilities for “Launch” & “Elevate” Package
+          </h1>
+          <div>
+            <strong>Followers or Following</strong> Choose your competitors
+            Projects or individuals having the followers you&apos;d like to
+            have. We will scrape (= get) all of their followers, then manually
+            select the ones that appear to be organic: only those with an
+            avatar, and with 10 to 8000 followers.
+            <br /> Provide the list as such:
+          </div>
+          <br />
+          <br />
+          <table className="mx-auto">
+          <tbody>
+            <tr>
+              <th>[Competitor] =&gt; </th>
+              <th>[follower amount]</th>
+            </tr>
+            {tableData.map((item) => (
+              <tr key={item.competitor}>
+                <td>{item.competitor}</td>
+                <td>{item.followerAmount}</td>
+              </tr>
+            ))}
+            </tbody>
+          </table>
+          <br />
+          <br />
+          <div>
+            …Until we reach a sum of minimum 300k TOTAL per package. So if you
+            buy 3, we&apos;ll need 900K followers to scrape.
+          </div>
+        </div>
+        <div className="w-10"></div>
+        <div className="border-white border-2 p-10 bg-gradient-to-r from-blue-700 to-gray-500 max-w-xl">
+          <h1 className="font-bold text-xl mb-4">Campaign Set-up</h1>
+          <p>
+            If you chose an outreach package, we&apos;ll scrape the followers of
+            your competitors.
+            <br /> It will take 3-5 business days. But for any package, we can
+            start the engagement interaction usually within 48 hours.
+            <br />
+            <br />
+            1. Choose Package(s) and quantity: Example: 3 Essential
+            <br />
+            2. Give us your Twitter profile link for automatic engagement
+            https://twitter.com/example.
+            <br />
+            3. Complete the Automatic Engagement Form (we&apos;ll send you a
+            link to it)
+          </p>
+          <Image
+            alt="twitter-new"
+            src={"/twitternew.png"}
+            width={200}
+            height={200}
+            className=" h-16 w-16 mx-auto mt-10"
+          />
+        </div>
+      </section>
+
       <MoveToTop />
-
-
     </div>
   );
 };

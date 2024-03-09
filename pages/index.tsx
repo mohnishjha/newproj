@@ -8,7 +8,7 @@ import Team from "components/Team";
 import MoveToTop from "components/MoveToTop";
 import WhatsAppIcon from "components/WhatsApp";
 import Services from "components/Services";
-import Product from "components/Products/"
+import Product from "./Products"
 
 const Home: NextPage = () => {
   return (
