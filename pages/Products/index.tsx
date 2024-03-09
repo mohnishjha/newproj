@@ -120,7 +120,7 @@ const index = () => {
         <h2 className="text-2xl font-medium mb-10">(formerly Twitter)</h2>
         <p className="mb-10">X Auto Engagement & Outreach Services</p>
         <p className="">
-          Don&apost go unnoticed: stand out from the competition, get your
+          Don&apos;t go unnoticed: stand out from the competition, get your
           project the hype it deserves. <br />
           Get seen by millions to grow a solid community of loyal fans &
           investors.
@@ -158,7 +158,7 @@ const index = () => {
             Precisely reach your target audience with our multiple targeting
             options: followers,
             <br /> following, geolocation, and hashtags. You can even steal your
-            competitors&apos followers!
+            competitors&apos; followers!
           </p>
 
           <h2 className="font-semibold text-lg">Create Hype and FOMO</h2>
@@ -234,25 +234,25 @@ const index = () => {
             your new Tweets. To get the maximum amount of engagements we
             recommend you wait up to 24 hours between each new Tweets.
           </li>
-          <p className="text-3xl font-extrabold text-black">&darr</p>
+          <p className="text-3xl font-extrabold text-black">&darr;</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
             Our accounts engage like real humans it will take time for all
             engagement to build as it does with real audience. To receive
-            engagements on the last Tweet, make sure that you haven&apost
+            engagements on the last Tweet, make sure that you haven&apos;t
             pinned anything. Our NFT accounts always engage with pinned Tweet
             first. Want to get engagement on any other Tweet besides the latest
             one? Just pin the Tweet and unpin after engagement has arrived. If
             there are 2 tweets that were posted at exactly the same time, one
             after another, only the last tweet will receive engagement.
           </li>
-          <p className="text-3xl font-extrabold text-black">&darr</p>
+          <p className="text-3xl font-extrabold text-black">&darr;</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
             Use any keyword from the "anchor keyword" list and receive
             comments about that subject. e.g. include a keyword "TAG
             3" in your post, and our NFT profiles will tag 3 accounts under
             your tweet (if you have Launch or Elevate package).
           </li>
-          <p className="text-3xl font-extrabold text-black">&darr</p>
+          <p className="text-3xl font-extrabold text-black">&darr;</p>
           <li className="border-dashed border-2 p-4 border-blue-900">
             You can come with custom comments of your own, otherwise, we will
             use our standard "anchor keyword" list.
@@ -267,7 +267,7 @@ const index = () => {
           </h1>
           <div>
             <strong>Followers or Following</strong> Choose your competitors
-            Projects or individuals having the followers you&aposd like to
+            Projects or individuals having the followers you&apos;d like to
             have. We will scrape (= get) all of their followers, then manually
             select the ones that appear to be organic: only those with an
             avatar, and with 10 to 8000 followers.
@@ -293,14 +293,14 @@ const index = () => {
           <br />
           <div>
             …Until we reach a sum of minimum 300k TOTAL per package. So if you
-            buy 3, we&aposll need 900K followers to scrape.
+            buy 3, we&apos;ll need 900K followers to scrape.
           </div>
         </div>
         <div className="w-10"></div>
         <div className="border-white border-2 p-10 bg-gradient-to-r from-blue-700 to-gray-500 max-w-xl">
           <h1 className="font-bold text-xl mb-4">Campaign Set-up</h1>
           <p>
-            If you chose an outreach package, we&aposll scrape the followers of
+            If you chose an outreach package, we&apos;ll scrape the followers of
             your competitors.
             <br /> It will take 3-5 business days. But for any package, we can
             start the engagement interaction usually within 48 hours.
@@ -311,7 +311,7 @@ const index = () => {
             2. Give us your Twitter profile link for automatic engagement
             https://twitter.com/example.
             <br />
-            3. Complete the Automatic Engagement Form (we&aposll send you a
+            3. Complete the Automatic Engagement Form (we&apos;ll send you a
             link to it)
           </p>
           <Image
@@ -339,6 +339,43 @@ const index = () => {
                   })}
                 </div>
       </section>
+
+
+        <section>
+          <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+            {/* <Image src="/twitter-bg.jpg" alt="twitter-bg" className="" width={300} height={300}/> */}
+            
+              <h1 className="font-bold text-3xl text-center pb-10">Reassurance & Social Proof</h1>
+            <div className="flex mx-10 flex-wrap">
+              <div className="mx-2 max-w-xs">
+              <h2 className="font-semibold border-b-2 border-white pb-4">Trusted Growth Partners Since 2020</h2>
+              <p className="pt-4">We&apos;;ve a proven track record and delivered quantifiable results to hundreds of NFT & Token projects through continually refined social strategies.</p>
+              </div>
+
+              <div className="mx-2 max-w-sm">
+              <h2 className="font-semibold border-b-2 border-white pb-4">+40 Successful Mint & +130 projects boosted.</h2>
+              <p className="pt-4">We&apos;;ve proven our expertise at scale by partnering with a diversity of NFT & Token Marketing Projects to expand reach, boost engagement, and get them successful Mint and Launch since 2020.</p>
+              </div>
+
+              <div className="mx-2 max-w-xs">
+              <h2 className="font-semibold border-b-2 border-white pb-4">Continuous Testing & Refinement</h2>
+              <p className="pt-4">Our dedicated team tests our services daily to optimize campaigns, provide seamless support, and ensure uninterrupted service since 2020.</p>
+              </div>
+
+              <div className="mx-2 max-w-xs">
+              <h2 className="font-semibold border-b-2 border-white pb-4">Experience You Can Rely On</h2>
+              <p className="pt-4">With thousands of man-hours invested in social research since 2020, our insights and customized plans yield quantifiable growth.</p>
+              </div>
+
+            </div>
+            <div className="max-w-md mx-auto mt-20 text-center">
+              <h1 className="font-bold text-3xl text-center pb-6">Incentive</h1>
+              <p className="">Marketing NFTs and tokens effectively requires sizable investments of time, funding, and manpower. However, success in this dynamic space is anything but guaranteed.</p>
+              <p className="mb-10">NFT and crypto communities are fickle, preferences change overnight. Platform algorithms also shift constantly, making it near impossible to reliably win visibility through organic reach alone.</p>
+              <Link href={'/#'} className="hover:text-blue-400 hover:underline">No more guesses, take back control with us now &gt;</Link>
+            </div>
+          </div>
+        </section>
 
       <MoveToTop />
     </div>
